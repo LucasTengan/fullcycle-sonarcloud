@@ -22,7 +22,7 @@ func TestSub(t *testing.T) {
 
 func TestTimes(t *testing.T) {
 
-	result := sum(2,3)
+	result := times(2,3)
 
 	if result != 6 {
 		t.Error("The result must be 6")
